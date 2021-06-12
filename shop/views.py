@@ -17,7 +17,7 @@ def return_main_page(request):
 
 
 def return_product(request):
-    html = "shop/product.html"
+    html = "shop/products.html"
     product_id = request.GET.get("id")
     content = Product.objects.get(pk=product_id)
     context = {
@@ -28,3 +28,7 @@ def return_product(request):
         template_name=html,
         context=context
     )
+
+def return_page_register(request):
+    html = "shop/register.html"
+    return render(request, html)

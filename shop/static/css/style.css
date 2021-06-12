@@ -73,6 +73,13 @@ body {
     height: 115px;
 }
 
+.me {
+    color: #C60000;
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+}
+
 
 .site_name {
     float: left;
@@ -98,13 +105,17 @@ a.description {
     color: #C60000;
     display: block;
     margin: 5px;
+    text-decoration: none;
 }
+
+
 
 
 .collections {
     color: #C60000;
     display: block;
     margin: 5px;
+    text-decoration: none;
 }
 
 
@@ -112,6 +123,7 @@ a.description {
     color: #C60000;
     display: block;
     margin: 5px;
+    text-decoration: none;
 }
 
 
@@ -119,6 +131,7 @@ a.description {
     color: #C60000;
     display: block;
     margin: 5px;
+    text-decoration: none;
 }
 
 
@@ -164,4 +177,15 @@ a.description {
 
 .product_name {
     color: yellow;
+}
+
+.signup-body {
+    background: yellow
+}
+
+.signup {
+    text-align: center;
+    margin: 40px 10px 10px 10px;
+    background: purple;
+    padding: 10px
 }
